@@ -1,9 +1,26 @@
 # 💫 About Me:
-🔭 I’m currently working on building a web game<br>🌱 I’m currently learning JS<br>⚡ Fun fact: I am an avid reader and like to write my own short stories
+import React from 'react';
+import { motion } from 'framer-motion';
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2000&pause=1000&color=F7D34A&background=FFFFFF00&center=true&width=800&height=40&lines=Embedded+Systems+Engineer;Cybersecurity+Researcher;Kernel+Hacker;Backend+Developer" alt="Typing SVG" />
-</p>
+export default function AnimatedBox() {
+    return (
+        <div className="flex justify-center items-center h-screen bg-gray-900">
+            <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.8, ease: 'easeOut' }}
+                className="p-8 rounded-2xl bg-gradient-to-br from-violet-700 to-indigo-900 shadow-lg border border-violet-500 w-full max-w-3xl"
+            >
+                <h1 className="text-4xl font-bold text-white text-center mb-4 animate-pulse">MASER</h1>
+                <p className="text-lg text-gray-300 text-center">
+                    Hey there, I am a computer engineer on a journey to learn as much as I can.
+                </p>
+            </motion.div>
+        </div>
+    );
+}
+
+
 
 
 # 💻 Tech Stack:
