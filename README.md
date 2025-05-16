@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on building a web game<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with projects with C<br>🌱 I’m currently learning JS<br>💬 Ask me about my skills<br>⚡ Fun fact: I am an avid reader and like to write my own short stories
+🔭 I’m currently working on building a web game<br>🌱 I’m currently learning JS<br>💬 Ask me about my skills<br>⚡ Fun fact: I am an avid reader and like to write my own short stories
 
 
 # 💻 Tech Stack:
