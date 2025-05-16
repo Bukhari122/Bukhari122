@@ -1,24 +1,38 @@
-# 💫 About Me:
-import React from 'react';
-import { motion } from 'framer-motion';
+<div align="center">
+  <div style="
+    background: linear-gradient(145deg, #7b2cbf, #5a189a); 
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  ">
+    <h1 style="
+      color: #fff;
+      font-size: 2.5em;
+      font-family: 'Courier New', Courier, monospace;
+      animation: glow 2s infinite alternate;
+    ">MASER</h1>
+    <p style="
+      color: #ddd;
+      font-size: 1.2em;
+      font-family: 'Courier New', Courier, monospace;
+    ">Hey there, I am a computer engineer on a journey to learn as much as I can.</p>
+  </div>
+</div>
 
-export default function AnimatedBox() {
-    return (
-        <div className="flex justify-center items-center h-screen bg-gray-900">
-            <motion.div
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.8, ease: 'easeOut' }}
-                className="p-8 rounded-2xl bg-gradient-to-br from-violet-700 to-indigo-900 shadow-lg border border-violet-500 w-full max-w-3xl"
-            >
-                <h1 className="text-4xl font-bold text-white text-center mb-4 animate-pulse">MASER</h1>
-                <p className="text-lg text-gray-300 text-center">
-                    Hey there, I am a computer engineer on a journey to learn as much as I can.
-                </p>
-            </motion.div>
-        </div>
-    );
+<style>
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #9b5de5, 0 0 40px #f15bb5, 0 0 50px #fee440, 0 0 60px #00bbf9, 0 0 70px #00f5d4;
+  }
+  to {
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #9b5de5, 0 0 40px #f15bb5, 0 0 50px #fee440, 0 0 60px #00bbf9, 0 0 70px #00f5d4, 0 0 80px #ffffff;
+  }
 }
+</style>
+
 
 
 
